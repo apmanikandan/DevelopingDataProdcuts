@@ -1,0 +1,11 @@
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(shiny)
+
+source('ui_var.R')
+source('server_var.R')
+
+shinyApp(
+  ui = ui, 
+  server = server
+)
+```
